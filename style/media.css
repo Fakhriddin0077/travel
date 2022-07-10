@@ -1,0 +1,75 @@
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+@media (max-width: 390px) {
+    .container{
+        max-width: 390px;
+    }
+    .rectangle1 {
+        display: none;
+        max-width: 390px;                
+        box-shadow: none;
+    }
+    .header-content-backround {
+        max-width: 390px;
+        height: 251px;
+        background-repeat: no-repeat;
+    }
+    .backround {
+        max-width: 390px;
+        height: 251px;
+        border-radius: 12px;
+    }
+    .explore {
+        display: none;
+    }
+    .recomendations {
+        display: none;
+    }
+    .preview{
+        position: absolute;
+        width: 360px;
+        height: 48px;
+        left: 15px;
+        top: 142px;
+    }
+    .searchbar{      
+        width: 360px;
+        height: 48px;        
+    }
+    .travel-portal{
+        display: none;
+    }
+    .text-from-search {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .planning-button {
+        font-size: 11px;
+        line-height: 14px;
+        padding: 7.5px 9px;
+        margin: 9px 9px 9px 0;
+    }
+    .main-content-title{
+        font-size: 14px;
+        line-height: 18px;
+        padding-bottom: 20px; 
+        padding-top: 20px;
+    }
+    .vektor27{
+        width: 70px;
+        height: 70px;
+    }
+    .frame27-text{
+        font-size: 10px;
+        line-height: 12px;
+        padding-top: 19px;   
+        text-align: center;     
+    }
+    .destinations-img{
+        width: 360px;
+        height: 210px;
+    }
+}
