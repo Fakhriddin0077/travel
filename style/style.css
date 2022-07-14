@@ -242,19 +242,20 @@ body {
     flex-direction: column;
     margin: 0 auto;      
     width: 1200px;    
-    padding-top: 10px;      
     margin-bottom: 61px;
+    padding-top: 40px;   
+    padding-bottom: 40px;
 }
 .stories-item {
     display: flex;    
     align-items: center;
-    padding-top: 30px;    
+    padding-bottom: 30px;       
 }
 .see-button1 {  
     width: 228px;
     height: 59px;         
     background: #0D606F; 
-    margin: 40px;    
+    margin: 0 auto;   
     border-radius: 10px;   
     border: none;
 }
