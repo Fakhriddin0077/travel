@@ -119,4 +119,8 @@
         width: 360px;
         height: 210px;
     }
+    .footer {
+        left: 0;
+        top: 0;
+    }
 }
