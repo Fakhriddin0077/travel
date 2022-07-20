@@ -26,11 +26,7 @@ body {
     width: 1440px;
     height: 765px;
     background-image: url('../images/garrett-parker-DlkF4-dbCOU-unsplash\ 1.png');
-}
-.backround {
-    max-width: 1440px;
-    height: 765px;
-}    
+}  
 .container {
     width: 1442px;   
     margin: 0 auto;
@@ -72,13 +68,22 @@ body {
     gap: 42px;
 }
 .travel-list {
+    list-style: none;
+   
+}
+.travel-list > a {
     font-family: var(--RH);
     font-size: 16px; 
     line-height: 21px;
-    color: var(--white);
-    text-transform: capitalize;
-    transition: 0.3s ease-in-out;
+    color: var(--white);     
+    text-transform: capitalize;    
+    transition: 1s;
 }
+.travel-list:hover {
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
 .login {
     font-family: var(--RH);
     font-size: 16px;
@@ -270,10 +275,11 @@ body {
 .vector-find-more2 {    
     align-items: center;
 }
-.story-img {
-    background: url('../images/Rectangle\ 33.svg');
+.story-img {       
     filter: drop-shadow(0px 4px 4px #0D606F);
     border-radius: 16px;
+    width: 400px;
+    height: 250px;    
 }
 .story-informations {
     padding-left: 40px;
