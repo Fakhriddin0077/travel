@@ -281,6 +281,10 @@ body {
     width: 400px;
     height: 250px;    
 }
+.story-img-mobile {
+    display: none;
+    border-radius: 16px;
+}
 .story-informations {
     padding-left: 40px;
 }
@@ -298,12 +302,13 @@ body {
     color: #0D606F;
 }    
 .footer {
-    position: absolute;
-    left: 590px;
-    top: 3650px;
+    /* position: absolute; */
+    /* left: 590px;
+    top: 3650px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 }
 .footer-text{
     font-family: var(--RH);

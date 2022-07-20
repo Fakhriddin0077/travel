@@ -29,6 +29,9 @@
         height: 693px;
         background: url('../images/MRectangle\ 28.png');        
     }
+    .story-img-mobile {
+        display: block;
+    }
     .stories-items {
         width: 360px;
         flex-direction: column;
@@ -44,7 +47,7 @@
         width: 155px;
         height: 130px;
         border-radius: 10px;
-        /* display: none; */
+        display: none;
         background: url('../images/MRectangle\ 15.png');
     }    
     .story-title {
@@ -120,7 +123,7 @@
         height: 210px;
     }
     .footer {
-        left: 0;
-        top: 0;
+        /* left: 0;
+        top: 0; */
     }
 }
